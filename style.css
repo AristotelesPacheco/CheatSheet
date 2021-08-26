@@ -7,14 +7,7 @@ h2 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
-}
-
-h2 {
     color: rebeccapurple;
-    text-align: center;
-}
-
-h1 {
     text-align: center;
 }
 
@@ -26,6 +19,7 @@ h1 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+    text-align: center;
 }
 
 body {
@@ -72,13 +66,10 @@ table {
 }
 
 thead {
-    background-color: plum;
-}
-
-thead {
     display: table-header-group;
     vertical-align: middle;
     border-color: inherit;
+    background-color: plum;
 }
 
 tbody {
@@ -94,10 +85,7 @@ tr {
 }
 
 td {
-    border-top: 1px solid darkorchid;
-}
-
-td {
     display: table-cell;
     vertical-align: inherit;
+    border-top: 1px solid darkorchid;
 }

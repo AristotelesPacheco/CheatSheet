@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Selectors and Specificity</title>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <h1>CSS Selectors and Specificity</h1>
+        <h2>Selectors</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Selector</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="code" id="type">element_name (p, h1, a, ...)</span></td>
+                    <td>Type</td>
+                    <td>The <em>Type</em> selector matches the type of the element in the HTML document.</td>
+                </tr>
+                <tr>
+                    <td><span class="code" id="universal">*</span></td>
+                    <td>Universal</td>
+                    <td>The universal selector (*) selects all elements of any type.</td>
+                </tr>
+                <tr>
+                    <td><span class="code" id="class">.class_name</span></td>
+                    <td>Class</td>
+                    <td>To select an HTML element by its class using CSS, a period (.) must be prepended to the class’s name.</td>
+                </tr>
+                <tr>
+                    <td><span class="code" id="multi_class">class_name1,class_name2,etc.</span></td>
+                    <td>Multiple Classes</td>
+                    <td>We can add multiple classes to an HTML element’s class attribute by separating them with a space.</td>
+                </tr>
+                <tr>
+                    <td><span class="code" id="id">#id_name</span></td>
+                    <td>ID</td>
+                    <td>To select an element’s ID with CSS, we prepend the id name with a number sign (#).</td>
+                </tr>
+                <tr>
+                    <td><span class="code" id="attribute">[Attribute_name]</span></td>
+                    <td>Attribute</td>
+                    <td>The attribute selector can be used to target HTML elements that already contain attributes. The most basic syntax is an attribute surrounded by square brackets.</td>
+                </tr>
+                <tr>
+                    <td><span class="code" id="pseudo_class">selector_name:pseudo_class_name</span></td>
+                    <td>Pseudo Class</td>
+                    <td>A pseudo-class can be attached to any selector. It is always written as a colon : followed by a name. For example p:hover.</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
